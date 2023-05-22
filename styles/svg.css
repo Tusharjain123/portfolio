@@ -1,0 +1,47 @@
+.centerImage{
+    width: 40vw;
+    /* background-color: red; */
+    transform: translateX(75%);
+    opacity: 10%;
+}
+
+.svg{
+    position: absolute;
+    height: 100vh;
+    display: block;
+    z-index: -1;
+}
+
+.backImage:hover{
+    opacity: 50%;
+}
+
+.leftImage{
+    width: 19vw;
+    transform: translate(26%, -24%);
+}
+
+.centerImage2{
+    width: 19vw;
+    transform: translate(23%, 17%);
+}
+
+.left{
+    background-color: red;
+    opacity: 30%;
+}
+
+.right{
+    opacity: 30%;
+}
+
+.rightImage1{
+    width: 16vw;
+    right: 11rem;
+    transform: translateY(-24%);
+}
+.rightImage2{
+    width: 21vw;
+    right: 8rem;
+    transform: translateY(15.4%);
+}

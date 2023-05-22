@@ -1,0 +1,26 @@
+.about {
+    display: block;
+    height: 100vh;
+    margin: auto;
+    width: 45vw;
+}
+
+.head {
+    font-size: 35px;
+}
+
+.aboutmyself {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    font-size: 17px;
+
+}
+
+.aboutmyself p {
+    width: 22vw;
+}
+
+.frame{
+    border: 1px solid black;
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: mova;
+    src: url("../mova.ttf");
+}
+
+.container {
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-evenly;
+    font-family: mova;
+    font-size: 30px;
+}
+
+.logo{
+    width: 190px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.logo img{
+    border: 1px solid black;
+    
+}
+
+.container ul{
+    display: flex;
+    gap: 4rem;
+
+}

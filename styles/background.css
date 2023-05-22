@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.container_{
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 3rem;
+    text-align: center;
+    z-index: 2;
+}
+
+.headone{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.backImg{
+    width: 30vw;
+    position: absolute;
+}
+
+.heading{
+    font-size: 4rem;
+    font-family: mova;
+    width: 30lvw;
+    margin: auto;
+}
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.animate{
+    text-align: left;
+}

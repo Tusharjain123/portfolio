@@ -1,0 +1,50 @@
+[
+    {
+        "name": "React",
+        "icon": "/icons/react.png"
+    },
+    {
+        "name": "Next",
+        "icon": "/icons/next.png"
+    },
+    {
+        "name": "Node",
+        "icon": "/icons/node.png"
+    },
+    {
+        "name": "Express",
+        "icon": "/icons/express.png"
+    },
+    {
+        "name": "Golang",
+        "icon": "/icons/Go.png"
+    },
+    {
+        "name": "Python",
+        "icon": "/icons/python.png"
+    },
+    {
+        "name": "C++",
+        "icon": "/icons/cpp.png"
+    },
+    {
+        "name": "Javascript",
+        "icon": "/icons/js.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "/icons/docker.png"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "/icons/tailwind.png"
+    },
+    {
+        "name": "MongoDB | SQL",
+        "icon": "/icons/database.png"
+    },
+    {
+        "name": "Git | Open Source",
+        "icon": "/icons/github.png"
+    }
+]
