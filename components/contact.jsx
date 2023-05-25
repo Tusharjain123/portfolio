@@ -19,7 +19,8 @@ export default function Contact (){
     const handleClick = async (e) => {
         e.preventDefault()
         const check = regex.test(email)
-        if (check){
+        console.log(check)
+        // if (check){
             const response = await fetch('/api/send', {
                 method: "POST",
                 headers: {
@@ -27,10 +28,10 @@ export default function Contact (){
                 },
                 body: JSON.stringify({name: data.name, email: data.email, msg: data.msg})
             })
-        }
-        else{
-            return console.error();
-        }
+        // }
+        // else{
+        //     return console.error();
+        // }
     }
     return <div className="email">
         <div className="emailContainer">

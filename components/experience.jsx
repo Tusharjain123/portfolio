@@ -14,7 +14,7 @@ const Box = (props) => {
         :
         <div className={`resume ${props.direction}`}>
             <div className="conten">
-                <a href="https://drive.google.com/file/d/1BmI1jdXu-cMzNKAzdVheB9FHXVViFyqZ/view?usp=share_link" target="_blank" noreferrer> <button> {props.title}  <Image src={props.company_name} width={25} height={10} /></button></a>
+                <a href="https://drive.google.com/file/d/1BmI1jdXu-cMzNKAzdVheB9FHXVViFyqZ/view?usp=share_link" target="_blank"> <button> {props.title}  <Image src={props.company_name} width={25} height={10} /></button></a>
               
             </div>
         </div>
