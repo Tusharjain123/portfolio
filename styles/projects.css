@@ -1,0 +1,122 @@
+.allProject{
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+    padding-bottom: 9vh;
+    margin-top: -15vh;
+}
+.allProject>p{
+    font-size: 1.5vw;
+    color: white;
+    font-family: "Kalam", cursive;
+}
+.project {
+    display: flex;
+    height: 70vh;
+    gap: 1rem;
+    column-gap: 0;
+    align-items: center;
+    overflow-y: scroll;
+    scroll-behavior:auto;
+    overflow: scroll;
+    z-index: 5;
+    margin-bottom: 4vh;
+}
+
+.allProj{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10vw;
+    margin-left: 6vw;
+    margin-top: 13vh;
+}
+
+.project::-webkit-scrollbar{
+    width: 0px;
+}
+
+.projectCard{
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.namee{
+    width: inherit;
+    text-align: center;
+    font-size: 41px;
+    position: relative;
+    top: 64%;
+    background-color: white;
+    opacity: 0;
+}
+.button{
+    text-align: center;
+    font-size: 41px;
+    position: relative;
+    top: 64%;
+    background-color: transparent;
+    margin: auto;
+    gap: 1.5rem;
+    opacity: 0;
+    margin-bottom: 10px;
+}
+
+.button button{
+    font-size: 22px;
+    border: 1px solid black;
+    padding: 6px 20px;
+    border-radius: 10px;
+    width: 20%;
+    margin-right: 10px;
+}
+.projectCard:hover .namee{
+    opacity: 45%;
+}
+.projectCard:hover .button{
+    opacity: 100%;
+}
+.rightt{
+    position: absolute;
+    left: 79%;
+}
+.leftt{
+    position: absolute;
+    left: 14%;
+}
+
+
+.projectCard1{
+ background: url('/icons/ContestSaathi.png') no-repeat;
+ background-size: contain;
+ width: 57vw;
+}
+
+.projectCard1 .button{
+    color: white;
+}
+
+.projectCard1 .button button{
+    border-color: white;
+}
+.projectCard2{
+    background: url('/icons/lostandfound.png') no-repeat;
+    background-size: contain;
+    width: 57vw;
+}
+.projectCard3{
+    background: url('/icons/stackunderflow.png') no-repeat;
+    background-size: contain;
+    width: 57vw;
+    margin-left: 3vw;
+}
+
+.header{
+    width: 70vw;
+    margin: auto;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: 'Kalam', cursive;
+    color: white;
+}

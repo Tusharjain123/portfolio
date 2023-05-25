@@ -1,7 +1,6 @@
 const SVGComponentLeft2 = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 500 500"
     {...props}
     className="centerImage2 svg"

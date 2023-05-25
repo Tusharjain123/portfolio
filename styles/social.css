@@ -1,0 +1,27 @@
+
+
+.social{
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 37%;
+    background-blend-mode: difference;
+
+}
+
+.github:hover{
+    transform: scale(1.2);
+}
+.linkedin:hover{
+    transform: scale(1.2);
+}
+.emailer:hover{
+    transform: scale(1.2);
+}
+.twitter:hover{
+    transform: scale(1.2);
+}

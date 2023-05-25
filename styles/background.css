@@ -1,38 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 .container_{
-    width: 80vw;
+    width: 70vw;
     height: 80vh;
+    /* background-color: red; */
     margin: auto;
     margin-top: 10rem;
     padding: 3rem;
-    text-align: center;
-    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }
 
 .headone{
     font-family: 'Quicksand', sans-serif;
 }
 
-.backImg{
-    width: 30vw;
-    position: absolute;
-}
 
 .heading{
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: mova;
-    width: 30lvw;
-    margin: auto;
+    width: 30vw;
+}
+
+.heading>h2{
+    font-size: 2.5vw;
+}
+
+.heading p{
+    font-size: 1.5vw;
 }
 .content {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     display: flex;
-    gap: 1rem;
-    justify-content: center;
+    width: fit-content;
+
+
 }
 
 .animate{
-    text-align: left;
+    padding: 0px 10px;
+    height: 4vh;
+    overflow-y: hidden;
+    width: fit-content;
+}
+
+.animate h2{
+    position: relative;
+    animation: animate 8s infinite ease-in-out;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes animate {
+    0%{
+        top: 0;
+    }
+    20%{
+        top: -4.9vh;
+    }
+    40%{
+        top: -9.4vh;
+    }
+    60%{
+        top: -14vh;
+    }
+    80%{
+        top: -18.3vh;
+    }
+
+}
+
+.animate::-webkit-scrollbar{
+    width: 0px;
+}
+.mine{
+    padding: 20px;
+    border: 7px dashed darkgray;
+    width: 17vw;
+    height: fit-content;
+    filter: grayscale(100%);
+
+    /* filter: hue-rotate(77deg); */
+    border-style: double;
+}
+
+.mine:hover{
+    filter: grayscale(0);
+    border-style: dashed;
 }

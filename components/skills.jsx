@@ -18,8 +18,9 @@ const SkillsCard = (props) =>{
 
 const Skills = () => {
     return <>
-    <div className="head">
-         Tech Skills
+    <div className="headi">
+        <p>My Skills</p>
+        <div>Technologies</div>
     </div>
     <div className="skills">
          {skills.map((ele) => {

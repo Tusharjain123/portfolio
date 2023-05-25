@@ -7,17 +7,17 @@ import "../styles/svg.css"
 
 
 const Svg = () => {
-    return <>
-    <div className="left">
-    <SVGComponentLeft/>
-    <SVGComponentLeft2/>
-    </div>
-    <SvgComponent/>
-    <div className="right">
-        <SVGComponentRight1/>
-        <SVGComponentRight2/>
-    </div>
-    </>
+    return <div className="backImages">
+            <div className="left">
+                <SVGComponentLeft />
+                <SVGComponentLeft2 />
+            </div>
+            <SvgComponent />
+            <div className="right">
+                <SVGComponentRight1 />
+                <SVGComponentRight2 />
+            </div>
+        </div>
 }
 
 export default Svg

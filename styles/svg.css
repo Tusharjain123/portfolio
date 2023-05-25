@@ -1,47 +1,44 @@
 .centerImage{
     width: 40vw;
-    /* background-color: red; */
     transform: translateX(75%);
-    opacity: 10%;
+    opacity: 20%;
 }
 
 .svg{
-    position: absolute;
+    position: fixed;
+    top: 20px;
     height: 100vh;
-    display: block;
-    z-index: -1;
-}
-
-.backImage:hover{
-    opacity: 50%;
+    z-index: -5;
+    filter: grayscale(30%);
 }
 
 .leftImage{
-    width: 19vw;
-    transform: translate(26%, -24%);
+    width: 16vw;
+    transform: translate(30%, -24%);
+    position: fixed;
+    top: 20px;
+    height: 100vh;
+    z-index: -10;
+    opacity: 25%;
 }
 
 .centerImage2{
-    width: 19vw;
-    transform: translate(23%, 17%);
-}
-
-.left{
-    background-color: red;
-    opacity: 30%;
-}
-
-.right{
-    opacity: 30%;
+    width: 16vw;
+    transform: translate(30%, 17%);
+    opacity: 25%;
 }
 
 .rightImage1{
-    width: 16vw;
+    width: 14vw;
     right: 11rem;
     transform: translateY(-24%);
+    opacity: 25%;
+    z-index: -10;
 }
 .rightImage2{
-    width: 21vw;
+    width: 18vw;
     right: 8rem;
     transform: translateY(15.4%);
+    z-index: -4;
+    opacity: 25%;
 }

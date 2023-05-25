@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+.email{
+    background-color: black;
+    height: 100vh;
+    width: 99vw;
+}
+
+.emailContainer{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    color: white;
+    background-color: rgb(41 41 41);
+    padding: 11vh;
+    transform: translateY(6.5vh);
+    border-radius: 20px;
+}
+
+.emailContainer p{
+    font-size: 20px;
+    font-weight: 900;
+}
+.emailContainer h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "beckman";
+}
+
+.emailContainer input, textarea{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    padding: 7px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    resize: vertical;
+    padding-inline: 1.5vw;
+}
+
+
+.emailContainer div{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailContainer button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    gap: 1rem;
+}
+
+form label{
+    font-weight: 700;
+    font-size: 18px;
+    width: 10vw;
+}

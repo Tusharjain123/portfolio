@@ -5,10 +5,10 @@ import Image from "next/image"
 export default function Navbar(){
 
     return <>
-    <div className="container">
+    <div className="containerr">
         <div className="logo">
             {/* <Image src="/1.png" width={100} height={60}></Image> */}
-            <div>TUSHAR</div> 
+            {/* <div>TUSHAR</div>  */}
         </div>
         <ul>
             <li><Link href="/"> HOME</Link></li>

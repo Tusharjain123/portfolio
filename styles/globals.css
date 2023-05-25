@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -10,5 +11,7 @@
 body{
     
     width: 98vw;
+    background-color: #001042;
     height: 98vh;
+
 }
